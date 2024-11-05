@@ -16,9 +16,8 @@ html{
     background-image: url(graphics/background.jpg);
     background-attachment: fixed;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
-.header{
+#header{
     display:block; 
     font: size 35px;;
     text-align:center;
@@ -49,9 +48,8 @@ html{
     height: 188px ;
     margin-top: 50px;
     margin-left: 25px;
-    position: left;
 }
-.box{
+#box{
     padding: 0;
     position: absolute;
     background-color: beige;
@@ -68,7 +66,7 @@ html{
     display: inline-block;
     z-index: 10;
 }
-.page_tit{
+#page_tit{
     width: 350px;
     height: 75px;
     position: absolute;
@@ -99,7 +97,7 @@ html{
     padding-bottom: 225px;
     position: absolute;
     z-index: 925;
-    .pfp{
+    #pfp{
         display: block;
         width: 565px;
         height: 600px;
@@ -111,7 +109,7 @@ html{
         border-radius: 100px;
 
     }
-    .card{
+    #card{
         display: block;
         width: 500px;
         height: 230px;
@@ -125,7 +123,7 @@ html{
         padding-bottom: 150px;
         position: absolute;
         z-index: 950;
-        .text_qs{
+        #text_qs{
             left: 5px;
             font-family: Cute Stitch;
             font-size: 15px;
@@ -135,7 +133,7 @@ html{
             line-height: 30px;
             color: rgb(233, 112, 179);
         }
-        .text_answrs{
+        #text_answrs{
             left: 130px;
             font-family: Cute Stitch;
             font-size: 15px;
@@ -172,7 +170,7 @@ html{
         color:lightpink ;
     }
 }
-.home_nav{
+#home_nav{
     display: block;
     width: 300px;
     height: 230px;

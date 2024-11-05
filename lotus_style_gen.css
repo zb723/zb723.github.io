@@ -63,7 +63,13 @@
     top: 260px;
     margin-left: 335px;
     overflow-y: scroll;
-
+    .tv_show{
+        scale: .13;
+        margin-top: -743px;
+        margin-left: -1009px;
+        position: absolute;
+        z-index: 12;
+    }
     #tv_img{
         width: 400px;
         left: 50px;
@@ -72,13 +78,6 @@
         margin-left: -10px;
         position: absolute;
         z-index: 13;
-    }
-    .tv_show{
-        scale: .13;
-        margin-top: -743px;
-        margin-left: -1009px;
-        position: absolute;
-        z-index: 12;
     }
     #tv_img2{
         width: 400px;

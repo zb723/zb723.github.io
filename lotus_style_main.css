@@ -16,6 +16,7 @@ html{
     background-image: url(graphics/background.jpg);
     background-attachment: fixed;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .header{
     display:block; 
